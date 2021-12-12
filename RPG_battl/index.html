@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPG-баттл</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <section class="game">
+    <h1 class="game__title">RPG-баттл</h1>
+    <div class="game__dialog">
+      Бой идет по ходам. Каждый ход компьютер (Лютый) случайно выбирает одно из доступных действий и сообщает, что он
+      собирается делать. В ответ на это игрок (Евстафий) должен выбрать свое действие.
+
+      После происходит взаимное нанесение урона. Магическая броня блокирует магический урон, физическая броня блокирует
+      физический урон.
+
+      После совершения действия, оно не может быть повторно выбрано в течение cooldown ходов
+
+      Бой идет до победы одного из противников.
+
+      Перед началом боя игрок выбирает сложность (начальное здоровье Евстафия)
+    </div>
+    <img class="game__img" src="https://ajssarimg.mediatriple.net/1118893.jpg" alt="victoria" />
+    <button class="game__set">Поехали!</button>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
